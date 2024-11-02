@@ -9,6 +9,7 @@
 :root {
   --text-color: #667085;
   --main-color: #8e2424;
+  --fonte-family: "Inter", sans-serif;
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--fonte-family);
 }
 
 header {
@@ -131,7 +132,6 @@ header {
   opacity: 0px;
   border: none;
   background-color: #ffffff;
-  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -150,10 +150,54 @@ header {
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   box-shadow: 0px 1px 2px 0px #1018280d;
-  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: Fill 1, 440px;
+  height: Fixed 407px;
+  padding: 96px 0px 96px 0px;
+  gap: 24px;
+}
+
+.main-span {
+  width: 78px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.main-titulo {
+  width: Fixed 652px;
+  height: Fixed 60px;
+  padding: 0px 32px 0px 32px;
+  gap: 12px;
+  font-size: 48px;
+  font-weight: bold 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #101828;
+}
+
+.main-paragrafo {
+  width: 791px;
+  height: 60px;
+  padding: 12px 0px 12px 0px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
 }

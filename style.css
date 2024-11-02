@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: Fill 1, 440px;
+  height: 80px;
+}
+
+.navegacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: Fixed 1, 280px;
+  height: 44px;
+  padding: 32px 32px;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  width: Fixed 148px;
+  height: 27px;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-img {
+  width: 27px;
+  height: 27px;
+}
+
+.logo-texto {
+  justify-content: center;
+  width: 113px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: 16px;
+  color: #3a404e;
+}
+
+.nav-ancoras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+.ancora-home {
+  color: var(--text-color);
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: medium 500;
+  line-height: 24px;
+  text-align: 16px;
+}
+.ancora-produtos {
+  color: var(--text-color);
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: medium 500;
+  line-height: 24px;
+  text-align: 16px;
+}
+
+.ancora-recursos {
+  color: var(--text-color);
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: medium 500;
+  line-height: 24px;
+  text-align: 16px;
+}
+
+.ancora-sobrenos {
+  color: var(--text-color);
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: medium 500;
+  line-height: 24px;
+  text-align: 16px;
+}
+
+.espaco {
+  width: 142px;
+  height: 32px;
+}
+
+.nav-botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  width: 270px;
+  height: 44px;
+  gap: 12px;
+}
+
+.botao-entrar {
+  width: 83px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: none;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.botao-cadastrar {
+  width: 112px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}

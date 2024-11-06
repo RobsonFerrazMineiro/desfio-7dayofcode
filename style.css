@@ -11,7 +11,7 @@
 }
 
 body {
-  width: 100%;
+  width: 200vh;
   height: 100vh;
 }
 
@@ -44,7 +44,7 @@ button#signUp {
   color: #fff;
 }
 
-main {
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,4 +87,131 @@ main {
   line-height: 30px;
   text-align: center;
   color: var(--text-color);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: Fill 264vh;
+  height: Hug 53vh;
+  padding: 0px 0px 96px 0px;
+  gap: 64px;
+}
+
+.metricas-container {
+  display: flex;
+  width: Fixed 235vh;
+  height: Hug 35vh;
+  padding: 0px 32px 0px 32px;
+  gap: 64px;
+}
+
+.metricas-estatisticas {
+  display: grid;
+  grid-template-columns: repeat(4, 0.4fr);
+  grid-template-rows: auto;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .metricas-estatisticas {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .metricas-estatisticas {
+    grid-template-columns: 1fr; /* 1 coluna em telas bem pequenas */
+  }
+}
+
+.metricas-metricas {
+  display: flex;
+  flex-direction: column;
+  width: Fill (1, 216px) px;
+  height: Hug (192px) px;
+  gap: 20px;
+}
+
+.metricas-texto {
+  display: flex;
+  flex-direction: column;
+  width: Fill (280px) px;
+  height: Hug (108px) px;
+  gap: 8px;
+}
+
+.metricas-numero {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.metricas-subtitulo {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: Medium 28px;
+  text-align: left;
+}
+
+.metricas-paragrafo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.vagas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: Fill 264vh;
+  height: Hug 330.5vh;
+  padding: 96px 0px 96px 0px;
+  gap: 64px;
+}
+
+.vagas-talentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: Fill 141.1vh;
+  height: Hug 16.1vh;
+  gap: 16px;
+}
+
+.vagas-badge {
+  width: Hug 22.9vh;
+  height: Hug 5.14vh;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  background-color: #8e24240d;
+  color: var(--main-color);
+}
+.vagas-titulo {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.vagas-comentario {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.vagas-talentos img {
+  width: 1216px;
+  height: 400px;
+  top: 298px;
+  left: 112px;
 }

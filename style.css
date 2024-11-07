@@ -11,7 +11,7 @@
 }
 
 body {
-  width: 200vh;
+  width: 100%;
   height: 100vh;
 }
 
@@ -49,42 +49,42 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: Fill 1, 440px;
-  height: Fixed 407px;
-  padding: 96px 0px 96px 0px;
-  gap: 24px;
+  width: 100%;
+  height: 70vh;
+  padding: 4rem;
+  gap: 1.5rem;
 }
 
 .header-span {
-  width: 78px;
-  height: 24px;
-  font-size: 16px;
+  width: 90%;
+  height: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
+  line-height: 1.5rem;
+  text-align: center;
   color: var(--main-color);
 }
 
 .header-titulo {
-  width: Fixed 652px;
-  height: Fixed 60px;
+  width: 80%;
+  height: 1.5rem;
   padding: 0px 32px 0px 32px;
   gap: 12px;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold 600;
-  line-height: 60px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
-  text-align: left;
+  text-align: center;
   color: #101828;
 }
 
 .header-paragrafo {
-  width: 791px;
-  height: 60px;
-  padding: 12px 0px 12px 0px;
-  font-size: 20px;
+  width: 84%;
+  height: 1.5rem;
+  padding: 32px 0px 32px 0px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.5;
   text-align: center;
   color: var(--text-color);
 }
@@ -92,26 +92,25 @@ header {
 main {
   display: flex;
   justify-content: center;
-  width: Fill 264vh;
-  height: Hug 53vh;
-  padding: 0px 0px 96px 0px;
-  gap: 64px;
+  width: 90%;
+  max-width: 1000px;
+  padding: 0 1rem;
+  gap: 2rem;
+  margin: 0 auto;
 }
 
 .metricas-container {
   display: flex;
-  width: Fixed 235vh;
-  height: Hug 35vh;
-  padding: 0px 32px 0px 32px;
-  gap: 64px;
+  width: 100%;
+  height: 62vh;
+  padding: 0 1rem;
+  gap: 2rem;
 }
 
 .metricas-estatisticas {
   display: grid;
-  grid-template-columns: repeat(4, 0.4fr);
-  grid-template-rows: auto;
-  justify-content: space-around;
-  gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -129,39 +128,39 @@ main {
 .metricas-metricas {
   display: flex;
   flex-direction: column;
-  width: Fill (1, 216px) px;
-  height: Hug (192px) px;
+  width: 1, 216px;
+  height: 192px;
   gap: 20px;
 }
 
 .metricas-texto {
   display: flex;
   flex-direction: column;
-  width: Fill (280px) px;
-  height: Hug (108px) px;
+  width: 280p;
+  height: 108px;
   gap: 8px;
 }
 
 .metricas-numero {
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: left;
   color: var(--main-color);
 }
 
 .metricas-subtitulo {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: Medium 28px;
+  line-height: Medium 1.5;
   text-align: left;
 }
 
 .metricas-paragrafo {
-  font-size: 16px;
+  font-size: 0.75rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: left;
   color: var(--text-color);
 }
@@ -169,28 +168,34 @@ main {
 .vagas-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: Fill 264vh;
-  height: Hug 330.5vh;
-  padding: 96px 0px 96px 0px;
+  width: 100%;
+  max-width: 1000px;
+  height: 166.48vh;
+  margin: 0 auto;
   gap: 64px;
+}
+
+.vagas-container img {
+  width: 95%;
+  max-width: 1216px;
+  margin: 0 auto;
 }
 
 .vagas-talentos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: Fill 141.1vh;
-  height: Hug 16.1vh;
-  gap: 16px;
+  width: 100%;
+  gap: 1rem;
 }
 
 .vagas-badge {
-  width: Hug 22.9vh;
-  height: Hug 5.14vh;
-  padding: 4px 12px 4px 12px;
-  border-radius: 16px;
-  background-color: #8e24240d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.27rem;
+  border-radius: 1rem;
+  background: #8e24240d;
   color: var(--main-color);
 }
 .vagas-titulo {
@@ -209,9 +214,52 @@ main {
   color: var(--text-color);
 }
 
-.vagas-talentos img {
-  width: 1216px;
-  height: 400px;
-  top: 298px;
-  left: 112px;
+.vagas-abertas {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 0 auto;
+}
+
+.vaga {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 358px;
+  gap: 32px;
+}
+.vaga-informacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 136px;
+  padding: 24px 24px 28px 24px;
+  gap: 24px;
+  border-radius: 16px;
+  border: solid 1px #eaecf0;
+  margin: 0 auto;
+  color: #101828;
+}
+
+.titulo-vaga {
+  width: 100%;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #101828;
+}
+
+.informacoes {
+  display: flex;
+  width: 550px;
+  height: 24px;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #667085;
 }

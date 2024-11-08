@@ -50,8 +50,8 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70vh;
-  padding: 4rem;
+  height: 25.43;
+  padding: 6rem;
   gap: 1.5rem;
 }
 
@@ -67,7 +67,7 @@ header {
 
 .header-titulo {
   width: 80%;
-  height: 1.5rem;
+  height: 3.75rem;
   padding: 0px 32px 0px 32px;
   gap: 12px;
   font-size: 3rem;
@@ -79,9 +79,11 @@ header {
 }
 
 .header-paragrafo {
-  width: 84%;
-  height: 1.5rem;
-  padding: 32px 0px 32px 0px;
+  display: flex;
+  align-items: center;
+  width: 88%;
+  height: 5.8rem;
+  padding: 32px 0 32px 0;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.5;
@@ -94,7 +96,7 @@ main {
   justify-content: center;
   width: 90%;
   max-width: 1000px;
-  padding: 0 1rem;
+  padding: 0 0 1rem 0;
   gap: 2rem;
   margin: 0 auto;
 }
@@ -102,7 +104,7 @@ main {
 .metricas-container {
   display: flex;
   width: 100%;
-  height: 62vh;
+  height: 44.5vh;
   padding: 0 1rem;
   gap: 2rem;
 }
@@ -170,8 +172,8 @@ main {
   flex-direction: column;
   width: 100%;
   max-width: 1000px;
-  height: 166.48vh;
   margin: 0 auto;
+  padding: 6rem 0;
   gap: 64px;
 }
 
@@ -217,7 +219,7 @@ main {
 .vagas-abertas {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 4rem;
   margin: 0 auto;
 }
 
@@ -225,17 +227,18 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 358px;
-  gap: 32px;
+  height: 44.75;
+  gap: 2rem;
 }
 .vaga-informacao {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 136px;
+  height: 6.5rem;
   padding: 24px 24px 28px 24px;
-  gap: 24px;
+  gap: 1.5rem;
   border-radius: 16px;
   border: solid 1px #eaecf0;
   margin: 0 auto;
@@ -244,8 +247,8 @@ main {
 
 .titulo-vaga {
   width: 100%;
-  height: 28px;
-  font-size: 18px;
+  height: 3.5vh;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 28px;
   text-align: left;
@@ -255,11 +258,158 @@ main {
 .informacoes {
   display: flex;
   width: 550px;
-  height: 24px;
-  gap: 24px;
-  font-size: 16px;
+  height: 3vh;
+  gap: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #667085;
+}
+
+.depoimentos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  padding: 0 0 6rem 0;
+}
+
+.depoimentos-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 88%;
+  height: 404px;
+  padding: 64px;
+  gap: 32px;
+  border-radius: 16px;
+  text-align: center;
+  background: #c3191908;
+}
+
+.depoimentos-texto span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--main-color);
+}
+
+.depoimentos-texto h2 {
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+
+.depoimento-avatar img {
+  width: 56px;
+  height: 56px;
+  border-radius: 200px;
+}
+
+.depoimento-avatar h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+
+.depoimentos-texto p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--text-color);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 430px;
+  padding: 96px 0px 96px 0px;
+  gap: 32px;
+  background: #f9fafb;
+}
+
+.formulario-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 182px;
+  gap: 20px;
+}
+
+.formulario-input h2 {
+  width: 100%;
+  height: 44px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+
+.formulario-input p {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--text-color);
+}
+
+.input-email {
+  display: flex;
+  align-items: center;
+  width: 492px;
+  height: 48px;
+  gap: 16px;
+}
+
+.input-email input {
+  width: 360px;
+  height: 42px;
+  padding: 12px 14px 12px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  border: solid 1px #d0d5dd;
+}
+
+.formulario-container span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #98a2b3;
 }
